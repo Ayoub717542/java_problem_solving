@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class challangeone{
+public class Systeme_de_facturation_electrique{
     public static void main(String[] args) {
         float  Facture_avant_tax=0,unit_one=0,unit_two=0,unit_three=0,tax=0,total=0;
         Scanner input  = new Scanner(System.in);
@@ -21,5 +21,6 @@ public class challangeone{
         System.out.println(tax);
         total=Facture_avant_tax+tax;
         System.out.println(total);
+        input.close();
     }
 }
